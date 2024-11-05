@@ -2,7 +2,7 @@ import styles from '../styles/Card.module.css';
 
 interface CardProps {
     bgcolor?: string
-    children?: any|null
+    children?: any
 }
 
 export default function Card(props: CardProps) {
